@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Weblet: Home</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="favico.png">
+	<meta charset="UTF-8">
+	<meta name="description" content="Weblet">
+	<meta name="aurthor" content="Whoever">
+	<meta property="og:title" content="Home">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://yourdomain.com/">
+	<meta porperty="og:image" content="https://yourdomain.com/favico.png">
+	<meta property="og:description" content="The best homepage on the internet">
+	<meta name="viewport" content="width=device-width, intital-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="apple-touch-icon" href="touch-icon-iphone.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="touch-icon-iphone-retina.png">
+	<link rel="apple-touch-icon" sizes="167x167" href="touch-icon-ipad-retina.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script>
+
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+	</script>
+</head>
+	<body>
+		<ul id="desknav">
+			<li><a class="active" href="">Home</a></li>
+			<li><a href="page2/">Page 2</a></li>
+		</ul>
+
+		<div class="topnav" id="mobnav">
+			<a href="javascript:void(0)" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+			</a>
+			<div class="bar"></div>
+			<div id="myLinks">
+				<a class="activemob" href="">Home</a>
+				<a href="page2/">Page 2</a>
+			</div>
+		</div>
+
+		<div class="grid-banner">
+			<div class="grid-item">
+				<h1 class="banner">Home</h1>
+			</div>
+		</div>
+		<div class="grid-main">
+			<div class="grid-item">
+				<h3>Content here</h3>
+			</div>
+		</div>
+		<div class="grid-banner">
+			<div class="grid-item">
+				<h3 class="copyright">&copy;20XX Whoever</h3>
+			</div>
+		</div>
+	</body>
+</html>
